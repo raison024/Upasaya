@@ -1,0 +1,54 @@
+.Page1{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Page1-title{
+    position: relative;
+    font-size: 6vmin;
+    font-weight: bold;
+    color: black;
+    margin: 2vmin;
+    margin-right: 10vmin;
+    animation-name: Page1title-anim;
+    animation-duration: 2s;
+}
+.Page1-content{
+    position: relative;
+    font-size: 2.5vmin;
+    font-weight: normal;
+    color: darkslategrey;
+    margin: 1vmin;
+    animation-name: Page1title-anim;
+    animation-duration: 2s;
+}
+@keyframes Page1title-anim {
+    from{
+        left: -10vmin;
+        opacity: 0;
+    }
+    to{
+        left: 0vmin;
+        opacity: 1;
+    }
+}
+.Page1-img{
+    height: 60vmin;
+    position: relative;
+    animation-name: Img-animation;
+    animation-duration: 2s;
+}
+@keyframes Img-animation {
+    from{
+        top: 10vmin;
+        opacity: 0;
+    }
+    to{
+        top: 0vmin;
+        opacity: 1;
+    }
+}

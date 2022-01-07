@@ -1,0 +1,83 @@
+.Footer{
+    height: 40vh;
+    width: 100%;
+    background-color: #0B7442;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.FooterImg-container{
+    height: 90%;
+    width: 20%;
+    margin: 2vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Footer-logo{
+    height: 10vmin;
+    margin: 2vmin;
+  }
+.FooterContent-container{
+    height: 90%;
+    width: 70%;
+    margin: 2vmin;
+    display: grid;
+    grid-template-columns: 40vmin 20vmin 20vmin 20vmin;
+    grid-column-gap: 10vmin;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.5vmin;
+    text-align: left;
+}
+.FooterSection-container{
+    font-size: 3.5vmin;
+    font-weight: normal;
+    color: white;
+    margin-top: 7vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.FooterSection-content{
+    font-size: 2vmin;
+    font-weight: normal;
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.Email-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vmin;
+}
+.Email-input{
+    height: 4vmin;
+    width: 25vmin;
+    background-color: #fff;
+    border-width: 0;
+    border-radius: 0.5vmin;
+    font-size: 1.8vmin;
+    padding: 0.5vmin;
+    color: black;
+}
+
+.Company-title{
+    font-size: 2.5vmin;
+    font-weight: normal;
+    color: white;
+}

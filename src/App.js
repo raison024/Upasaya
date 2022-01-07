@@ -1,22 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Logo from './Assets/upasaya.png';
+import Page1 from './Components/Page1/Page1';
+import Page2 from './Components/Page2/Page2';
+import Page3 from './Components/Page3/Page3';
+import Page4 from './Components/Page4/Page4';
+import Page5 from './Components/Page5/Page5';
+import Footer from './Components/Footer/Footer';
+import Contact from './Components/Contact/Contact';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='App-nav'>
+          <img src={Logo} className='App-logo' />
+          <Link to="/contact" className='Contact-button'>Contact Us</Link>
+        </div>
+        <Page1 />
+        <Page2 />
+        <Page3 />
+        <Page4 />
+        <Page5 />
+        <Footer />
       </header>
     </div>
   );

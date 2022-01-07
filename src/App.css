@@ -1,38 +1,60 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #fff;
+  min-height: 400vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.App-nav{
+  height: 10vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  animation-name: Nav-anim;
+  animation-duration: 2s;
+  z-index: 1;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@keyframes Nav-anim {
+  from{
+      opacity: 0;
   }
-  to {
-    transform: rotate(360deg);
+  to{
+      opacity: 1;
   }
+}
+.App-logo{
+  height: 7vmin;
+  margin: 2vmin;
+}
+.Contact-button{
+  height: 3vmin;
+  width: 14vmin;
+  padding: 1vmin;
+  margin: 2vmin;
+  border-radius: 0.5vmin;
+  border-width: 0.2vmin;
+  border-style: solid;
+  border-color: #0B7442;
+  background-color: #0B7442;
+  font-size: 1.8vmin;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.Contact-button:hover{
+  background-color: #fff;
+  border-color: #0B7442;
+  color: #0B7442;
 }

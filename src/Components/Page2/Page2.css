@@ -1,0 +1,58 @@
+.Page2{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.Page2-maintitle{
+    height: 50vmin;
+    width: 50vmin;
+    position: relative;
+    font-size: 11vmin;
+    font-weight: bold;
+    color: #0B7442;
+    margin: 2vmin;
+    margin-right: 15vmin;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Page2-title{
+    position: relative;
+    font-size: 3.5vmin;
+    font-weight: bold;
+    color: black;
+    margin: 2vmin;
+    height: 60vmin;
+    width: 90vmin;
+    padding: 2vmin;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: left;
+}
+.Page2-content{
+    position: relative;
+    font-size: 2.5vmin;
+    font-weight: normal;
+    color: darkslategrey;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+}
+@keyframes Page2title-anim {
+    from{
+        left: -10vmin;
+        opacity: 0;
+    }
+    to{
+        left: 0vmin;
+        opacity: 1;
+    }
+}
+.Page2-img{
+    position: relative;
+}
