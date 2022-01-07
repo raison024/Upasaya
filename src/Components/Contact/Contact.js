@@ -7,7 +7,7 @@ function Contact() {
     return (
         <div className='Contact'>
             <div className='Contact-nav'>
-                <img src={Logo} className='Contact-logo' />
+                <img src={Logo} className='Contact-logo' alt='UpasayaLogo'/>
                 <Link to="/" className='Home-button'>Home</Link>
             </div>
             

@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Logo from './Assets/upasaya.png';
 import Page1 from './Components/Page1/Page1';
@@ -7,7 +6,6 @@ import Page3 from './Components/Page3/Page3';
 import Page4 from './Components/Page4/Page4';
 import Page5 from './Components/Page5/Page5';
 import Footer from './Components/Footer/Footer';
-import Contact from './Components/Contact/Contact';
 import { Link } from 'react-router-dom';
 
 function App() {
@@ -15,7 +13,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <div className='App-nav'>
-          <img src={Logo} className='App-logo' />
+          <img src={Logo} className='App-logo' alt='UpasayaLogo'/>
           <Link to="/contact" className='Contact-button'>Contact Us</Link>
         </div>
         <Page1 />

@@ -30,7 +30,7 @@ function Footer() {
     return (
         <div className='Footer'>
             <div className='FooterImg-container'>
-                <img src={Logo} className='Footer-logo' /> 
+                <img src={Logo} className='Footer-logo' alt='UpasayaLogo'/> 
                 <div className='Company-title'><br/>U-turn Lifestyle Private Limited</div>
             </div>
             <div className='FooterContent-container'>

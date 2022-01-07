@@ -8,7 +8,6 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-import { Link } from 'react-router-dom';
 import Contact from './Components/Contact/Contact';
 
 ReactDOM.render(
